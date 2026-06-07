@@ -1,0 +1,53 @@
+# ===== 依赖 =====
+node_modules/
+target/
+
+# ===== 构建产物 =====
+dist/
+minimalhealth-pro/android/app/build/
+minimalhealth-pro/android/.gradle/
+minimalhealth-pro/android/build/
+minimalhealth-pro/android/captures/
+minimalhealth-pro/android/*.apk
+minimalhealth-pro/android/*.aab
+
+# ===== 数据库 =====
+*.mv.db
+*.trace.db
+data/
+
+# ===== Android SDK 路径（含本地路径信息）=====
+minimalhealth-pro/android/local.properties
+
+# ===== IDE =====
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Gradle =====
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+!minimalhealth-pro/android/gradle/wrapper/gradle-wrapper.jar
+
+# ===== 环境变量 / 密钥 =====
+.env
+.env.local
+.env.*.local
+*.p12
+*.keystore
+*.jks
+secrets.properties
+
+# ===== 日志 =====
+*.log
+logs/
